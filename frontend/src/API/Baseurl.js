@@ -1,4 +1,4 @@
-export const BASEURL = "http://localhost:5000/api/v1/";
+export const BASEURL = "https://aashanamirbackend.vercel.app/api/v1/";/* http://localhost:5000/api/v1/ */
 
-export const FILEURL = "http://localhost:5000/";
+export const FILEURL = "https://aashanamirbackend.vercel.app/";
 
