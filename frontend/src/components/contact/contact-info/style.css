@@ -1,0 +1,30 @@
+.class-info-box {
+  background-color: #232323;
+  width: 355px;
+  padding: 30px;
+  border-radius: 6px;
+  color: #989898;
+}
+@media only screen and (max-width: 750px) {
+  .class-info-box {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+.class-info-box h4 {
+  line-height: 34px;
+  margin-bottom: 20px;
+}
+.class-info-box .contact-option {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.class-info-box .contact-option svg {
+  color: #ffdb44;
+  font-size: 16px;
+}
+.class-info-box .contact-option .text {
+  color: #fff;
+  margin-left: 15px;
+}/*# sourceMappingURL=style.css.map */

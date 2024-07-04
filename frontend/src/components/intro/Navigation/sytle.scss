@@ -1,0 +1,78 @@
+@import "../../../style-config/mixin.scss";
+@import "../../../style-config/variable.scss";
+
+.top-navigation-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 38px;
+    @include small-sreen{
+        margin-top: 20px;
+    }
+    .logo{
+        width: 132px;
+        @include small-sreen{
+            flex-shrink: 0;
+            width: 100px;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        a{
+            color: white;
+            font-size: 27px;
+            text-decoration: none;
+            font-weight: 700;
+        }
+    }
+    .mobile-menu{
+        z-index: 100;
+        color: $white;
+        font-size: 32px;
+        display: none;
+        @include small-sreen{
+            display: block;
+        }
+    }
+    .navigation-bar{
+        display: flex;
+        align-items: center;
+        @include small-sreen{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: $black;
+            display: none;
+            z-index: 99;
+        }&.active{
+            display: flex;
+        }
+        .navigation-items{
+            margin-right: 28px;
+            color: $white;
+            @include typography(18px , 400 ,1);
+            padding: 8px;
+            cursor: pointer;
+            box-shadow: inset 0 0 0 0 $white;
+            transition: color 0.3s ease-in-out , box-shadow 0.3s ease-in-out;
+            border-radius: 4px;
+            @include small-sreen{
+                margin-right: 0;
+                gap: 20px;
+                @include typography(28px , 500 ,3);
+            }
+            &:hover{
+            box-shadow: inset 200px 0 0 0 $white;
+            color: $black;
+            }
+        }
+    }
+}

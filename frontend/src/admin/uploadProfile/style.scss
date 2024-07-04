@@ -1,0 +1,116 @@
+@import "../../style-config/mixin.scss";
+@import "../../style-config/variable.scss";
+
+    
+    .layout{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        @include small-sreen {
+            flex-direction: column;
+        }
+        .left-col{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 18px;
+            @include small-sreen{
+                width: 100%;
+                margin-bottom: 240px;
+            }
+            input{
+                width: 100%;
+                background-color: yellow;
+                padding: 8px;
+                border-radius: 8px;
+                text-align: center;
+                cursor: pointer;
+            }&::-webkit-file-upload-button{
+                color: red;
+            }
+        }
+        .right-col{
+            width: 55%;
+            position: relative;
+            
+            img{
+                max-width: 280px;
+                width: 120%;
+                margin-top: 40px;
+                margin-left: 140px;
+                @include small-sreen{
+                    display: none;
+                }
+            }
+            .card-horizental{
+                max-width: 180px;
+                height: 80px;
+                position: absolute;
+                top: 290px;
+                left: -10px;
+                @include glassmorphism-effect;
+                color: $black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 22px;
+                border-radius: 5px;
+                cursor: pointer;
+                @include typography(14px , 400 , 18px);
+                @include small-sreen{
+                    position: absolute;
+                    top: 51px;
+                    left: -8px;
+                    width: min-content;
+                    height: 72px;
+                }
+                .icon{
+                    background-color: $yellow;
+                    color: $black;
+                    border-radius: 50%;
+                    padding: 6px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 12px;
+                }
+            }
+
+            .card-vertical{
+                max-width: 120px;
+                height: 140px;
+                position: absolute;
+                top: 160px;
+                left: 400px;
+             @include glassmorphism-effect;
+                color: $black;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                padding: 22px;
+                border-radius: 5px;
+                cursor: pointer;
+                @include typography(14px , 400 , 18px);
+                @include small-sreen{
+                    position: absolute;
+                    top: -10px;
+                    left: 230px;
+                    height: 120px;
+                }
+                .icon{
+                    background-color: $yellow;
+                    color: $black;
+                    border-radius: 50%;
+                    padding: 6px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+    

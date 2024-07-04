@@ -1,0 +1,11 @@
+@import "../../style-config/mixin.scss";
+
+.contact-content-wrapper{
+    display: flex;
+    margin-top: 75px;
+    width: 100%;
+    @include small-sreen{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,190 @@
+.intro-content {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+.intro-content .layout {
+  display: flex;
+}
+@media only screen and (max-width: 750px) {
+  .intro-content .layout {
+    flex-direction: column;
+  }
+}
+.intro-content .layout .left-col {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 18px;
+}
+@media only screen and (max-width: 750px) {
+  .intro-content .layout .left-col {
+    width: 100%;
+    margin-bottom: 240px;
+  }
+}
+.intro-content .layout .left-col .title {
+  max-width: 80%;
+}
+@media only screen and (max-width: 750px) {
+  .intro-content .layout .left-col .title {
+    text-align: center;
+    margin: auto;
+  }
+}
+.intro-content .layout .left-col .title .short-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+}
+@media only screen and (max-width: 750px) {
+  .intro-content .layout .left-col .title .short-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 78px;
+  }
+}
+.intro-content .layout .left-col .title img {
+  width: 28px;
+  padding-top: 12px;
+}
+.intro-content .layout .left-col .title .long-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 38px;
+}
+@media only screen and (max-width: 750px) {
+  .intro-content .layout .left-col .title .long-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+.intro-content .layout .left-col p {
+  margin-top: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 18px;
+}
+@media only screen and (max-width: 750px) {
+  .intro-content .layout .left-col p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .intro-content .layout .left-col .call-to-action {
+    margin: 0 auto;
+  }
+}
+.intro-content .layout .right-col {
+  width: 55%;
+  position: relative;
+}
+.intro-content .layout .right-col img {
+  max-width: 280px;
+  width: 120%;
+  margin-top: 40px;
+  margin-left: 140px;
+}
+@media only screen and (max-width: 750px) {
+  .intro-content .layout .right-col img {
+    display: none;
+  }
+}
+.intro-content .layout .right-col .card-horizental {
+  max-width: 180px;
+  height: 80px;
+  position: absolute;
+  top: 290px;
+  left: -10px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+@media only screen and (max-width: 750px) {
+  .intro-content .layout .right-col .card-horizental {
+    position: absolute;
+    top: 51px;
+    left: -8px;
+    width: -moz-min-content;
+    width: min-content;
+    height: 72px;
+  }
+}
+.intro-content .layout .right-col .card-horizental .icon {
+  background-color: #ffdb44;
+  color: #000;
+  border-radius: 50%;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+.intro-content .layout .right-col .card-vertical {
+  max-width: 120px;
+  height: 140px;
+  position: absolute;
+  top: 160px;
+  left: 400px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 22px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+@media only screen and (max-width: 750px) {
+  .intro-content .layout .right-col .card-vertical {
+    position: absolute;
+    top: -10px;
+    left: 230px;
+    height: 120px;
+  }
+}
+.intro-content .layout .right-col .card-vertical .icon {
+  background-color: #ffdb44;
+  color: #000;
+  border-radius: 50%;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

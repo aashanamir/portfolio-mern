@@ -1,0 +1,56 @@
+.call-to-action {
+  display: flex;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  height: 36px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+}
+.call-to-action .text,
+.call-to-action .arrow,
+.call-to-action .icon {
+  position: relative;
+  z-index: 1;
+  transition: all ease-in-out;
+}
+.call-to-action .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  background-color: #ffdb44;
+  margin-left: 8px;
+  width: 28px;
+  height: 28px;
+}
+.call-to-action .icon svg {
+  width: 80%;
+  height: 80%;
+}
+.call-to-action:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffdb44;
+  transform: translateX(-100%);
+  transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.call-to-action:hover::before {
+  transform: translateX(0%);
+}
+.call-to-action:hover .arrow {
+  background-color: #fff;
+}/*# sourceMappingURL=style.css.map */

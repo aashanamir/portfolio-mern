@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.020882c6.css",
+    "main.js": "/static/js/main.53987463.js",
+    "static/media/thumb-11.png": "/static/media/thumb-11.1d13b86992ebad43d9f2.png",
+    "static/media/thumb-10.png": "/static/media/thumb-10.013c9a0e68b35f08893d.png",
+    "static/media/thumb-12.png": "/static/media/thumb-12.1007862c66b0555c4b2e.png",
+    "static/media/thumb-14.png": "/static/media/thumb-14.2258b7b323880e7076c1.png",
+    "static/media/thumb-13.png": "/static/media/thumb-13.fab1482034a18fcad152.png",
+    "static/media/thumb-9.png": "/static/media/thumb-9.a866c7199a239d37ff95.png",
+    "static/media/girl.png": "/static/media/girl.9b9fd9571cd1be2fe067.png",
+    "static/media/blog-thumb-2.jpg": "/static/media/blog-thumb-2.6ea419b38772d0c6685f.jpg",
+    "static/media/blog-thumb-1.jpg": "/static/media/blog-thumb-1.d299b4913f9d814f738d.jpg",
+    "static/media/vector-background.png": "/static/media/vector-background.17fff8ffdaaf3dcfe71c.png",
+    "static/media/thumb-5.jpg": "/static/media/thumb-5.27ea789b3b4ba71bd800.jpg",
+    "static/media/blog-thumb-3.jpg": "/static/media/blog-thumb-3.da7632eea65347470e13.jpg",
+    "static/media/thumb-6.jpg": "/static/media/thumb-6.26e955c3cd18b48dc98b.jpg",
+    "static/media/thumb-8.jpg": "/static/media/thumb-8.cdf9b9f4de1c899f5bcc.jpg",
+    "static/media/thumb-1.jpg": "/static/media/thumb-1.c4cdcb71d78a31493dde.jpg",
+    "static/media/thumb-4.jpg": "/static/media/thumb-4.ca0a5db1714d4ca43d24.jpg",
+    "static/media/thumb-3.jpg": "/static/media/thumb-3.7e550fc264d45366b663.jpg",
+    "static/media/tech-icons.png": "/static/media/tech-icons.bba568408fb42fa031c8.png",
+    "static/media/thumb-7.jpg": "/static/media/thumb-7.ce14c76ba50f932d14d4.jpg",
+    "static/media/thumb-2.jpg": "/static/media/thumb-2.5a21a5409f6da3f2ef9e.jpg",
+    "static/media/cloud-soft.png": "/static/media/cloud-soft.4a7c46b961e63488802b.png",
+    "index.html": "/index.html",
+    "main.020882c6.css.map": "/static/css/main.020882c6.css.map",
+    "main.53987463.js.map": "/static/js/main.53987463.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.020882c6.css",
+    "static/js/main.53987463.js"
+  ]
+}

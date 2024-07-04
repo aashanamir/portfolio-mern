@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.fancy-signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1a;
+}
+
+.fancy-signin-box {
+  background: #333;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.fancy-signin-title {
+  margin-bottom: 20px;
+  font-size: 2em;
+  text-align: center;
+  color: #ff6600;
+}
+
+.fancy-input-group {
+  margin-bottom: 20px;
+}
+
+.fancy-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1em;
+  color: #ccc;
+}
+
+.fancy-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  background-color: #444;
+  color: #fff;
+}
+
+.fancy-input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #ff6600;
+}
+
+.fancy-signin-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.fancy-signin-button:hover {
+  background-color: #e65c00;
+}

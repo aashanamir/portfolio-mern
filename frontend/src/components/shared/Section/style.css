@@ -1,0 +1,26 @@
+.section {
+  padding: 100px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.section.light {
+  background-color: #131313;
+}
+.section.dark {
+  background-color: #000;
+}
+.section .content {
+  width: 1200px;
+  padding: 0 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section .section-title {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  max-width: 500px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,62 @@
+.skills-content-wrapper {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 750px) {
+  .skills-content-wrapper {
+    flex-direction: column;
+  }
+}
+.skills-content-wrapper .left-col {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 40%;
+}
+@media only screen and (max-width: 750px) {
+  .skills-content-wrapper .left-col {
+    width: 100%;
+    margin: auto;
+  }
+}
+.skills-content-wrapper .left-col img {
+  display: block;
+  width: 100%;
+  max-width: 453px;
+}
+@media only screen and (max-width: 750px) {
+  .skills-content-wrapper .left-col img {
+    margin: auto;
+  }
+}
+.skills-content-wrapper .right-col {
+  width: 60%;
+  color: #fff;
+  margin-left: 70px;
+}
+@media only screen and (max-width: 750px) {
+  .skills-content-wrapper .right-col {
+    width: 100%;
+    margin: 50px 0 0 0;
+  }
+}
+.skills-content-wrapper .right-col h2 {
+  margin-bottom: 30px;
+}
+.skills-content-wrapper .right-col p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 750px) {
+  .skills-content-wrapper .right-col p {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .skills-content-wrapper .right-col .call-to-action {
+    margin: 20px auto;
+  }
+}/*# sourceMappingURL=style.css.map */

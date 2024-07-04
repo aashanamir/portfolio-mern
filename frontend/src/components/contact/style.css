@@ -1,0 +1,11 @@
+.contact-content-wrapper {
+  display: flex;
+  margin-top: 75px;
+  width: 100%;
+}
+@media only screen and (max-width: 750px) {
+  .contact-content-wrapper {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
