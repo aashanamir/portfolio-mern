@@ -36,7 +36,7 @@ export const uploadProfileImage = catchAsyncError(async (req, res, next) => {
     });
 
   try { // deleting image from server which is uploaded by multer middleware
-    const res = fs.unlinkSync("./public/images/" + file.filename);
+    const res = fs.unlinkSync(path.resolve(`public/images/${file.filename}`));
   } catch (error) {
     console.log(error);
   }
