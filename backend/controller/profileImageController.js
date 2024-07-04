@@ -34,13 +34,14 @@ export const uploadProfileImage = catchAsyncError(async (req, res, next) => {
     .catch((error) => {
       console.log(error);
     });
-
+/*
   try { // deleting image from server which is uploaded by multer middleware
     const res = fs.unlinkSync(path.resolve(`public/images/${file.filename}`));
   } catch (error) {
     console.log(error);
   }
 
+  */
   const profileImage = await ProfileImage.create({ // Creating image in database
     image: {
       public_id: uploadResult.public_id,
