@@ -2,6 +2,7 @@ import React from "react";
 import "./style.scss";
 import Section from "../shared/Section";
 import Techicons from "../../images/tech-icons.png";
+import Cv from "../../images/cv.pdf";
 import CallToAction from "../shared/callToAction";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import { useSelector } from "react-redux";
@@ -10,7 +11,7 @@ const Skills = () => {
     const { siteContentData } = useSelector((state) => state.siteContent);
 
     const downloadCv = () => {
-    const fileUrl = 'http://localhost:5000/images/file-1719655236691-suit.png';
+    const fileUrl = Cv;
 
     const link = document.createElement('a');
     link.href = fileUrl;

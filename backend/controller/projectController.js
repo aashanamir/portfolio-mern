@@ -3,23 +3,34 @@ import { ErrorHandler } from "../utils/ErrorHandler.js";
 import { Project } from "../model/projectModel.js";
 import mongoose from "mongoose";
 import fs from "fs";
+import { v2 as cloudinary } from 'cloudinary';
+
 
 // Create Project
 
 export const createProject = catchAsyncError(async (req, res, next) => {
   const file = req.file;
-  console.log(req.body);
+
   const { name, description, category, role, visitLink } = req.body;
 
   if (!name || !description || !category || !role || !file) {
     return next(new ErrorHandler("Please Fill All The Required Feilds to Add Project", 404));
   }
 
+  const uploadResult = await cloudinary.uploader // Upload on Cloudinary
+    .upload(
+      file.path, {
+      public_id: file.filename,
+    }
+    )
+    .catch((error) => {
+      console.log(error);
+    });
 
   const project = await Project.create({
     name, description, category, role, image: {
-      public_id: file.filename,
-      url: file.path
+      public_id: uploadResult.public_id,
+      url: uploadResult.url
     }, visitLink
   });
 

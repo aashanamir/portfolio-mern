@@ -88,6 +88,7 @@ export function fetchAllProjects(){
     dispatch(setStatus("loading"));
     try {
       const {data} = await axios.get(BASEURL + "project/all");
+      console.log(data);
       dispatch(setAllProjects(data));
       dispatch(setStatus("idle"));
     } catch (error) {

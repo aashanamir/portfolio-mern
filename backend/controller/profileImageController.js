@@ -25,6 +25,7 @@ export const uploadProfileImage = catchAsyncError(async (req, res, next) => {
     return next(new ErrorHandler("Please Upload Profile Image", 404));
   }
 
+
   const uploadResult = await cloudinary.uploader // Upload on Cloudinary
     .upload(
       file.path, {

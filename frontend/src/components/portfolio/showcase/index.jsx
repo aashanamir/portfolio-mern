@@ -20,7 +20,7 @@ const Showcase = ({data , transition}) => {
                     </div>
                 </div>
                 </a>
-                <img src={FILEURL + "images/" + project?.image?.public_id} alt={project?.name} />
+                <img src={project?.image?.url} alt={project?.name} />
             </Link>
         })
       }
