@@ -31,7 +31,7 @@ const ProjectDetail = () => {
         <p className="project-description">{project?.description}</p>
       </div>
       <div className="right-side">
-        <img src={project?.image?.url} alt={project?.name} className="project-image" />
+        <img src={project?.image?.url} alt={project?.image?.public_id} className="project-image" />
       </div>
     </div>
   );

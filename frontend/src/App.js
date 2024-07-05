@@ -1,7 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import "./app.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Blogs from "./components/blogs";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Intro from "./components/intro/Index";
